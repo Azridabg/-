@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Калориен калкулатор</title>
+    <link rel="stylesheet" href="calorieCalulator.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="Form1">
+            <h3>Калориен калкулатор</h3>
+            <input type="text" placeholder="Килограми">
+            <select name="activity" id="activity">
+                <option value="activity">Активност:</option>
+                <option value="very light">(Много лека)Типична офис работа(седене, учене, малко разхождане през деня.)</option>
+                <option value="light">(Лека)Работите, в които сте предимно прави(учител, лаборант, повечко разхождане през деня.)</option>
+                <option value="moderate">(Умерена)Неща изискващи физическа активност(чистене, ходенна на йога/каране на колело/трениране по 2 часа на ден.)</option>
+                <option value="heavy">(Тежка) Танцьор, атлет и други тежки физически активности, които продължават до 4 часа</option>
+                <option value="very heavy">(Много тежка) Умерена до тежка физическа активност минимум 8 часа на ден</option>
+            </select>
+            <input type="text" placeholder="Пол(мъж или жена)">
+            <input type="text" placeholder="Процент подкожни мазнини(Пример:13)">
+            <div class="btn-box">
+
+                <button type="button" id="Next1">Изчисли</button>
+                <label for="label" id ="first-label">Вашите калории:</label>
+                <textarea placeholder="0" id="textarea" disabled></textarea>
+            </div>
+            <script src="calorieCalculator.js"></script>
+</body>
+
+</html>
