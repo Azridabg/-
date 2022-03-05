@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fff;
+}
+
+#header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-brand {
+    font-family: Catamaran;
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0 auto;
+}
+
+* {
+    text-decoration: none;
+}
+
+header nav ul {
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+header nav ul li a {
+    font-family: Catamaran;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+header .header-cases {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .index-banner {
+        height: 450px;
+    }
+
+    .index-banner h1 {
+        display: block;
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    .index-links {
+        padding-bottom: 5px;
+        overflow: hidden;
+    }
+
+    .index-links div {
+        margin: 17px 7px 0 !important;
+        height: 200px !important;
+        background-color: #f2f2f2;
+        float: left;
+    }
+
+    .index-boxlink-square {
+        width: calc(25% - 20px) !important;
+    }
+
+    .index-boxlink-rectangle {
+        width: calc(50% - 20px) !important;
+    }
+
+    .index-links div h3 {
+        line-height: 195px !important;
+    }
+}
+
+/*Index*/
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.index-banner h2 {
+    font-family: Catamaran;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 55px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px #111111;
+}
+
+.index-banner h1 {
+    font-family: Cormorant Garamond;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111111;
+}
+
+.index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1000px) {
+    header .header-brand {
+        text-align: left;
+        padding: 0px 20px 20px 40px;
+        margin: 36px 0px;
+        border-right: 3px solid #111;
+        float: left;
+        line-height: 28px;
+    }
+
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+    }
+
+   /* header nav ul li {}*/
+
+    header nav ul li a {
+        line-height: 60px;
+    }
+
+    header .header-cases {
+        display: block;
+        font-family: Catamaran;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 38px;
+        border: 1px solid #111;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+}
+
+/*Footer*/
+footer {
+    width: calc(100%-80px);
+    padding: 40px 40px;
+    background-color: #111;
+    overflow: hidden;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: Catamaran;
+    font-size: 30px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.footer-links-cases {
+    display: none;
+}
+
+.footer-sm {
+    width: 50px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-links-main {
+    line-height: 45px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 220px;
+}
+.footer-links-main li a {
+    font-size: 16px;
+}
+@media only screen and (min-width: 1000px) {
+    .footer-links-cases {
+        display: block;
+        line-height: 45px;
+    }
+
+    footer ul li p {
+        font-family: Catamaran;
+        font-size: 25px;
+        color: #fff;
+        line-height: 45px;
+        text-transform: uppercase;
+    }
+
+    footer ul {
+        padding-right: 30px;
+    }
+}
